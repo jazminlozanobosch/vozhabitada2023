@@ -17,11 +17,15 @@ body{
 --backgroundbutton:blue;
 --nav-bg:black;
 
-/*text colors*/
+/*colores de texto*/
+
 --blanco:white;
 --negro:black;
+
 /* fonts*/
 --fontpoppins:"poppins";
+/*tamaños de letra*/
+
 }
 
 *{ 
@@ -33,5 +37,41 @@ body{
     font-family:var(--fontpoppins), sans-serif;
 }
 a{
-color:var(--background);
+color:var(--primary);
+}
+.header{
+    background: var(--nav-bg);
+    display: flex;
+    justify-content: space-between;
+    color: var(--blanco);
+    align-items: center;
+    padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+   
+}
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap:4rem;
+}
+.navbar-list{
+    gap:40px;
+}
+.navbar-list a{
+    color:var(--blanco) ;
+}
+
+.carrito-icon{
+  width: 3rem;
+  height: 3 rem;
+}
+.logo{
+    width: 8rem;
+    height: 8 rem;
 }
