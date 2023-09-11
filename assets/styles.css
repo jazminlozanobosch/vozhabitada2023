@@ -24,7 +24,13 @@ body{
 
 /* fonts*/
 --fontpoppins:"poppins";
+
 /*tamaños de letra*/
+--small:14px;
+--medium:30 px;
+--large:60 px;
+
+
 
 }
 
